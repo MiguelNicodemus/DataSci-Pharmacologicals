@@ -66,6 +66,7 @@ Para o desenvolvimento das etapas propostas para este projeto, as atividades seg
 
 
 |Atividade/Semana | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |Entendimento do Negócio | x |  |  |  |  |  |  |  |  |  |  |  |
 |Entendimento dos Dados |  | x | x |  |  |  |  |  |  |  |  |  |
 |Preparação dos Dados |  |  |  | x | x | x |  |  |  |  |  |  |
