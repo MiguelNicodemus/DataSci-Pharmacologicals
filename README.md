@@ -10,7 +10,7 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
  | Cristina Wohlke Vendruscolo  | 225164  | Saúde|
  | Diogo Brandão  | 227099  | Computação|
  | Juliana Rodrigues Pinto | 107619  | Saúde|
- | Laura Aiello  | 178176  | Saúde|
+ | Laura Moretti Aiello  | 178176  | Saúde|
  | Miguel Henrique Nicodemus de Souza Pinto  | 156777  | Computação|
 
 
