@@ -20,15 +20,22 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 A Covid 19 está afetando a população brasileira de uma forma complexa. A motivação deste trabalho objetiva avaliar o impacto de alguns fatores como: clima, comorbidades, faixa etária, gênero, densidade populacional, gravidade da doença, propostas de tratamento (vitamina D, ivermectina, azitromicina, hidroxicloroquina, corticóides, annita, nitazoxanida) e tamanho da população no aumento do número de casos de doenças respiratórias (Covid 19, H1N1, Influenza, Pneumonia, SARS e MERS).
 
+[Video Projeto Ciência e Visualização de Dados em Saúde](https://drive.google.com/file/d/1QKpGMJFm76yzsFowA0n4_coLLJ7RuWdh/view?usp=sharing)
+
 
 # Perguntas de Pesquisa
 
+
+Como pressupostos fundamentais para orientação do projeto foram utilizadas as seguintes perguntas de pesquisa:
 
 - Quais são os fatores que influenciam o número de casos das doenças analisadas?
 - Quais são os fatores que influenciam a evolução das doenças analisadas?
 - Como melhor visualizar os dados?
 
 # Bases de Dados
+
+
+Após uma triagem inicial, selecionaram-se as seguintes bases de dados:
 
 
 - https://covid.saude.gov.br/
@@ -45,6 +52,8 @@ A Covid 19 está afetando a população brasileira de uma forma complexa. A moti
 # Metodologia
 
 
+Propõe-se o uso das seguintes metodologias:
+
 - CRISP-DM
 - Aprendizagem de máquina
 - Análise estatística
@@ -52,6 +61,8 @@ A Covid 19 está afetando a população brasileira de uma forma complexa. A moti
 
 # Ferramentas
 
+
+As ferramentas optadas para execução do projeto em questão são:
 
 - Minitab
 - Graphpad
@@ -62,7 +73,7 @@ A Covid 19 está afetando a população brasileira de uma forma complexa. A moti
 # Cronograma
 
 
-Para o desenvolvimento das etapas propostas para este projeto, as atividades seguiram a metodologia CRISP DM. O tempo necessário para cada etapa está descrito na tabela a seguir:
+Para o desenvolvimento das etapas propostas para este projeto, as atividades seguiram a metodologia CRISP-DM. O tempo necessário para cada etapa está descrito na tabela a seguir:
 
 
 |Atividade/Semana | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
