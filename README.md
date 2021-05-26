@@ -210,34 +210,51 @@ A partir do Dataset Covid foram selecionadas somente as características (featur
 Abaixo estão apresentados os gráficos de distribuição do total de casos (cumulativo), casos diários, total de óbitos (cumulativo), óbitos diários, total de vacinas (cumulativo) e pessoas vacinadas por dia, a nível mundial. 
 Os gráficos apresentam a distribuição das notificações realizadas entre 02-11-2020 e 19-05-2021. Devido à limitação do Orange, que permite somente o input de 200 dados para a elaboração do gráfico de distribuição, foram selecionados somente os dados referentes às 200 notificações mais atuais.
 
+
 ![graph1](./assets/graph1.png)
+
 *Gráfico 1: Total de casos acumulados de Covid-19 no mundo.*
 
+
 ![graph2](./assets/graph2.png)
+
 *Gráfico 2: Número de casos diários de Covid-19 no mundo.*
 
+
 ![graph3](./assets/graph3.png)
+
 *Gráfico 3: Total de óbitos acumulados por Covid-19 no mundo.*
 
+
 ![graph4](./assets/graph4.png)
+
 *Gráfico 4: Número de óbitos diários por Covid-19 no mundo.*
 
+
 ![graph5](./assets/graph5.png)
+
 *Gráfico 5: Total acumulado de vacinas aplicadas no mundo.*
 
+
 ![graph6](./assets/graph6.png)
+
 *Gráfico 6: Número de pessoas vacinadas diariamente no mundo.*
 
 **Features statistics**
 
 As figuras 1 e 2 apresentam os gráficos de distribuição e estatística descritiva do dataset completo e das variáveis (features) relevantes que serão avaliadas pelo grupo.
 
+
 ![feature_statistics_world_1](./assets/feature_statistics_world_1.png)
 
+
 ![feature_statistics_world_2](./assets/feature_statistics_world_2.png)
+
 *Figura 2. Gráfico de distribuição e estatística descritiva das variáveis selecionadas.*
 
+
 ![feature_statistics_world_3](./assets/feature_statistics_world_3.png)
+
 
 A partir dos gráficos apresentados nas figuras 1 e 2 é possível inferir, que de modo geral, as variáveis do dataset não apresentam uma distribuição normal.
 Para as variáveis relacionadas à vacinação é possível verificar uma alta porcentagem de dados faltantes. Em alguns casos é possível observar que 70% dos dados estão faltando.
@@ -256,23 +273,36 @@ O resultado apresentado abaixo mostra uma forte correlação entre as variáveis
 Abaixo estão apresentados os gráficos de distribuição do total de casos (cumulativo), casos diários, total de óbitos (cumulativo), óbitos diários, total de vacinas (cumulativo) e pessoas vacinadas por dia no Brasil. 
 Os gráficos apresentam a distribuição das notificações realizadas entre 02-11-2020 e 19-05-2021. Devido à limitação do Orange, que permite somente o input de 200 dados para a elaboração do gráfico de distribuição, foram selecionados somente os dados referentes às 200 notificações mais atuais.
 
+
 ![graph7](./assets/graph7.png)
+
 *Gráfico 7: Total de casos acumulados de Covid-19 no Brasil.*
 
+
 ![graph8](./assets/graph8.png)
+
 *Gráfico 8: Número de casos diários de Covid-19 no Brasil.*
 
+
 ![graph9](./assets/graph9.png)
+
 *Gráfico 9: Total de óbitos acumulados por Covid-19 no Brasil.*
 
+
 ![graph10](./assets/graph10.png)
+
 *Gráfico 10: Número de óbitos diários por Covid-19 no Brasil.*
 
+
 ![graph11](./assets/graph11.png)
+
 *Gráfico 11: Total acumulado de vacinas aplicadas no Brasil.*
 
+
 ![graph12](./assets/graph12.png)
+
 *Gráfico 12: Número de pessoas vacinadas diariamente no Brasil.*
+
 
 **Features statistics**
 
