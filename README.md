@@ -61,21 +61,23 @@ A partir da análise exploratória dos dados, verificou-se uma forte correlaçã
 
 Correlação
 
-![image1](media/base1discarded_correlation.jpg)
+![correlations_base1](./assets/correlations_base1.png)
 
 Os resultados das estatísticas descritivas das variáveis numéricas mais relevantes são apresentados na Figura abaixo. 
 
 Estatísticas descritivas
 
-![image2](media/base1discarded_estatisticasdescritivas.jpg)
+![descriptive_statistics_base1](./assets/descriptive_statistics_base1.png)
 
 As variáveis também podem ser comparadas e estudadas a partir dos gráficos de dispersão conforme demonstrado.
 
 Gráfico de dispersão do número de casos em função do tempo (meses)
 
-![image3](media/base1discarded_estatisticasdescritivas.jpg)
+![cases_scatterplot](./assets/cases_scatterplot.png)
 
 Gráfico de dispersão do número de mortes em função do tempo (meses)
+
+![death_month_scatterplot](./assets/death_month_scatterplot.png)
 
 Observa-se um aumento no número de casos de COVID-19 ao longo dos meses, com uma prevalência no continente americano. Já o número de mortes apresentou maiores índices no mês de abril e dezembro, também com prevalência no continente americano. 
 
@@ -92,21 +94,23 @@ A análise exploratória desses dados foi feita a partir do estudo de correlaç�
 
 **Correlação**
 
-![image4](media/base1discarded_estatisticasdescritivas.jpg)
+![correlation_base2](./assets/correlation_base2.png)
 
 Conforme apresentado na figura, o número de casos obteve uma forte correlação com a taxa de testes positivados (0,809) e com o número de testes feitos (0,683). O número de população também apresentou forte correlação com os testes feitos (0,661) e novos casos (0,630). Desse modo, podemos constatar que quanto maior o número da população, mais testes serão feitos e maior a taxa de positivos e, portanto, mais novos casos ocorrerão.
 
 **Gráfico de dispersão taxa de testes feitos em função do número de novos casos - correlação positiva**
 
-![image5](media/base1discarded_estatisticasdescritivas.jpg)
+![cases_Scatterplot](./assets/tests_new cases_Scatterplot.png)
 
 **Gráfico de dispersão taxa de testes positivos em função do número de novos casos**
 
-![image6](assets/base1discarded_estatisticasdescritivas2.jpg)
+![new cases_ positives_testes_Scatterplot](./assets/new cases_ positives_testes_Scatterplot.png)
 
 Verifica-se uma correlação positiva entre número de novos casos e testes feitos no primeiro gráfico enquanto que no segundo gráfico, não é constatada uma correlação clara entre os novos casos e a taxa de testes positivos.
 
 **Estatísticas descritivas das variáveis**
+
+![descriptive_statistics_base2](./assets/descriptive_statistics_base2.png)
 
 Embora essa base de dados contenha informações relevantes a serem utilizadas, por exemplo, para cálculo dos casos não notificados, essa não apresenta todos os países de interesse para as avaliações propostas pelo projeto,  tendo sido, portanto, dada preferência à base de dados adotada mais completa. 
 
@@ -120,7 +124,7 @@ Base de Dados | Endereço na Web | Resumo descritivo
 ----- | ----- | -----
 owid-covid-data | https://github.com/owid/covid-19-data/tree/master/public/data | O dataset utilizado contém dados relacionados à COVID-19 e é mantido pela Our World in Data, uma plataforma digital especializada em expor dados de pesquisa de forma interativa. O dataset é atualizado diariamente e contém dados sobre casos confirmados, óbitos, hospitalização, testes e vacinação, além de informações relacionadas à população, IDH, expectativa de vida, entre outras variáveis de interesse a pesquisa.
 
-Nesta análise utilizou-se o Dataset Covid (owid-covid-data.csv), com 91.024 entradas de dados, 40.1% de dados faltantes e 59 features. As features (características) da base de dados estão descritas abaixo:
+Nesta análise utilizou-se o [Dataset Covid](https://github.com/MiguelNicodemus/DataSci-Pharmacologicals/blob/main/data/raw/owid-covid-data.csv), com 91.024 entradas de dados, 40.1% de dados faltantes e 59 features. As features (características) da base de dados estão descritas abaixo:
 
 - ISO_Code (dado categórico): Código de identificação do país.
 - Continent (dado categórico): Continente no qual o país está localizado.
@@ -206,32 +210,34 @@ A partir do Dataset Covid foram selecionadas somente as características (featur
 Abaixo estão apresentados os gráficos de distribuição do total de casos (cumulativo), casos diários, total de óbitos (cumulativo), óbitos diários, total de vacinas (cumulativo) e pessoas vacinadas por dia, a nível mundial. 
 Os gráficos apresentam a distribuição das notificações realizadas entre 02-11-2020 e 19-05-2021. Devido à limitação do Orange, que permite somente o input de 200 dados para a elaboração do gráfico de distribuição, foram selecionados somente os dados referentes às 200 notificações mais atuais.
 
-![image7](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph1](./assets/graph1.png)
 *Gráfico 1: Total de casos acumulados de Covid-19 no mundo.*
 
-![image8](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph2](./assets/graph2.png)
 *Gráfico 2: Número de casos diários de Covid-19 no mundo.*
 
-![image9](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph3](./assets/graph3.png)
 *Gráfico 3: Total de óbitos acumulados por Covid-19 no mundo.*
 
-![image10](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph4](./assets/graph4.png)
 *Gráfico 4: Número de óbitos diários por Covid-19 no mundo.*
 
-![image11](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph5](./assets/graph5.png)
 *Gráfico 5: Total acumulado de vacinas aplicadas no mundo.*
 
-![image12](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph6](./assets/graph6.png)
 *Gráfico 6: Número de pessoas vacinadas diariamente no mundo.*
 
 **Features statistics**
 
 As figuras 1 e 2 apresentam os gráficos de distribuição e estatística descritiva do dataset completo e das variáveis (features) relevantes que serão avaliadas pelo grupo.
 
-![image13](assets/base1discarded_estatisticasdescritivas.jpg)
+![feature_statistics_world_1](./assets/feature_statistics_world_1.png)
 
-![image14](assets/base1discarded_estatisticasdescritivas.jpg)
+![feature_statistics_world_2](./assets/feature_statistics_world_2.png)
 *Figura 2. Gráfico de distribuição e estatística descritiva das variáveis selecionadas.*
+
+![feature_statistics_world_3](./assets/feature_statistics_world_3.png)
 
 A partir dos gráficos apresentados nas figuras 1 e 2 é possível inferir, que de modo geral, as variáveis do dataset não apresentam uma distribuição normal.
 Para as variáveis relacionadas à vacinação é possível verificar uma alta porcentagem de dados faltantes. Em alguns casos é possível observar que 70% dos dados estão faltando.
@@ -243,36 +249,38 @@ A correlação entre duas variáveis apresenta uma relação estatística entre 
 A correlação entre as variáveis selecionadas foi avaliada aplicando-se o coeficiente de Spearman, uma vez que as variáveis não apresentam uma distribuição normal.
 O resultado apresentado abaixo mostra uma forte correlação entre as variáveis: casos acumulados e óbitos acumulados; casos diários e óbitos acumulados; casos diários e casos acumulados; vacinação diária e total vacinados; casos diários e óbitos diários; óbitos diários e óbitos acumulados; óbitos diários e casos acumulados.
 
-![image15](assets/base1discarded_estatisticasdescritivas.jpg)
+![correlation_features_world](./assets/correlation_features_world.png)
 
 **Análise do cenário nacional da pandemia de Covid-19, considerando os dados relativos ao número de casos, óbitos e vacinação**
 
 Abaixo estão apresentados os gráficos de distribuição do total de casos (cumulativo), casos diários, total de óbitos (cumulativo), óbitos diários, total de vacinas (cumulativo) e pessoas vacinadas por dia no Brasil. 
 Os gráficos apresentam a distribuição das notificações realizadas entre 02-11-2020 e 19-05-2021. Devido à limitação do Orange, que permite somente o input de 200 dados para a elaboração do gráfico de distribuição, foram selecionados somente os dados referentes às 200 notificações mais atuais.
 
-![image16](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph7](./assets/graph7.png)
 *Gráfico 7: Total de casos acumulados de Covid-19 no Brasil.*
 
-![image17](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph8](./assets/graph8.png)
 *Gráfico 8: Número de casos diários de Covid-19 no Brasil.*
 
-![image18](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph9](./assets/graph9.png)
 *Gráfico 9: Total de óbitos acumulados por Covid-19 no Brasil.*
 
-![image19](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph10](./assets/graph10.png)
 *Gráfico 10: Número de óbitos diários por Covid-19 no Brasil.*
 
-![image20](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph11](./assets/graph11.png)
 *Gráfico 11: Total acumulado de vacinas aplicadas no Brasil.*
 
-![image21](assets/base1discarded_estatisticasdescritivas.jpg)
+![graph12](./assets/graph12.png)
 *Gráfico 12: Número de pessoas vacinadas diariamente no Brasil.*
 
 **Features statistics**
 
 A figuras 3 apresenta o gráfico de distribuição e estatística descritiva das variáveis (features) selecionadas, considerando as notificações registradas no Brasil.
 
-![image22](assets/base1discarded_estatisticasdescritivas.jpg)
+![feature_statistics_brasil_1](./assets/feature_statistics_brasil_1.png)
+
+![feature_statistics_brasil_2](./assets/feature_statistics_brasil_2.png)
 *Figura 3. Gráfico de distribuição e estatística descritiva das variáveis selecionadas (dados Brasil) .*
 
 De acordo com os dados visualizados na figura 3 é possível inferir que as variáveis não apresentam uma distribuição normal.
@@ -284,32 +292,32 @@ A correlação entre as variáveis selecionadas foi avaliada aplicando-se o coef
 O resultado apresentado abaixo mostra uma forte correlação  (valor de r ⦥ 0.7) entre as variáveis: casos acumulados e óbitos acumulados; casos diários e óbitos diários; casos diários e casos acumulados.
 É possível observar uma correlação moderada (valor de r ⦥ 0.5) entre as variáveis: vacinação diária e total vacinados; casos diários e óbitos acumulados; óbitos diários e óbitos acumulados; óbitos diários e casos acumulados.
 
-![image23](assets/base1discarded_estatisticasdescritivas.jpg)
+![correlation_features_brasil](./assets/correlation_features_brasil.png)
 
 **Comparação países**
 **Densidade populacional x Total de mortes**
 
-![image24](assets/base1discarded_estatisticasdescritivas.jpg)
+![population_density_versus_death_total](./assets/population_density_versus_death_total.png)
 
 Como podemos observar, a densidade populacional não tem correlação linear direta com o total de óbitos por país, vemos entradas com baixa densidade populacional e alto número de óbitos, assim como o contrário. Para tornar este um modelo mais robusto, talvez será necessário analisar essas variáveis em conjunto.
 
 **População x Total de mortes**
 
-![image25](assets/base1discarded_estatisticasdescritivas.jpg)
+![population_versus_death_total](./assets/population_versus_death_total.png)
 
 Novamente, assim como na análise de densidade populacional, o comportamento é extremamente similar. Talvez é o caso de análise conjunto ou aplicação de um modelo polinomial, com todos os devidos cuidados para evitar o overfitting.
 
 **Expectativa de vida x Total de mortes por milhão**
 
-![image26](assets/base1discarded_estatisticasdescritivas.jpg)
+![life_expec_versus_death_total](./assets/life_expec_versus_death_total.png)
 
 **IDH x Total de mortes por milhão**
 
-![image27](assets/base1discarded_estatisticasdescritivas.jpg)
+![idh_versus_death_total](./assets/idh_versus_death_total.png)
 
 **Correlações**
 
-![image28](assets/base1discarded_estatisticasdescritivas.jpg)
+![comparison_countries_correlation](./assets/comparison_countries_correlation.png)
 
 
 ### Integração entre Bases e Análise Exploratória
