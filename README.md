@@ -59,23 +59,23 @@ Distribuição Geográfica de COVID-19 pelo mundo | https://www.ecdc.europa.eu/e
 Para avaliação da aplicabilidade da base de dados ‘Distribuição Geográfica de COVID-19 pelo mundo” com os objetivos propostos por esse projeto, foram analisadas as variáveis números de casos e mortes, comparando a partir do tempo, localização geográfica e número da população. O restante das informações puderam ser excluídas uma vez que não contemplavam os objetivos estabelecidos. 
 A partir da análise exploratória dos dados, verificou-se uma forte correlação entre o número de casos e mortes (0,823). As correlações se mantiveram positivas para as variáveis: números de casos e população (0,466) e número de mortes e população (0,460). 
 
-Correlação
+**Correlação**
 
 ![correlations_base1](./assets/correlations_base1.png)
 
 Os resultados das estatísticas descritivas das variáveis numéricas mais relevantes são apresentados na Figura abaixo. 
 
-Estatísticas descritivas
+**Estatísticas descritivas**
 
 ![descriptive_statistics_base1](./assets/descriptive_statistics_base1.png)
 
 As variáveis também podem ser comparadas e estudadas a partir dos gráficos de dispersão conforme demonstrado.
 
-Gráfico de dispersão do número de casos em função do tempo (meses)
+**Gráfico de dispersão do número de casos em função do tempo (meses)**
 
 ![cases_scatterplot](./assets/cases_scatterplot.png)
 
-Gráfico de dispersão do número de mortes em função do tempo (meses)
+**Gráfico de dispersão do número de mortes em função do tempo (meses)**
 
 ![death_month_scatterplot](./assets/death_month_scatterplot.png)
 
@@ -266,7 +266,9 @@ A correlação entre duas variáveis apresenta uma relação estatística entre 
 A correlação entre as variáveis selecionadas foi avaliada aplicando-se o coeficiente de Spearman, uma vez que as variáveis não apresentam uma distribuição normal.
 O resultado apresentado abaixo mostra uma forte correlação entre as variáveis: casos acumulados e óbitos acumulados; casos diários e óbitos acumulados; casos diários e casos acumulados; vacinação diária e total vacinados; casos diários e óbitos diários; óbitos diários e óbitos acumulados; óbitos diários e casos acumulados.
 
+
 ![correlation_features_world](./assets/correlation_features_world.png)
+
 
 **Análise do cenário nacional da pandemia de Covid-19, considerando os dados relativos ao número de casos, óbitos e vacinação**
 
@@ -308,10 +310,14 @@ Os gráficos apresentam a distribuição das notificações realizadas entre 02-
 
 A figuras 3 apresenta o gráfico de distribuição e estatística descritiva das variáveis (features) selecionadas, considerando as notificações registradas no Brasil.
 
+
 ![feature_statistics_brasil_1](./assets/feature_statistics_brasil_1.png)
 
+
 ![feature_statistics_brasil_2](./assets/feature_statistics_brasil_2.png)
+
 *Figura 3. Gráfico de distribuição e estatística descritiva das variáveis selecionadas (dados Brasil) .*
+
 
 De acordo com os dados visualizados na figura 3 é possível inferir que as variáveis não apresentam uma distribuição normal.
 Assim como no cenário mundial, as variáveis relacionadas à vacinação apresentam alta porcentagem de dados faltantes. Para o Brasil esta porcentagem é relativamente maior, pois, a vacinação no país começou a partir de janeiro de 2021.
@@ -322,30 +328,41 @@ A correlação entre as variáveis selecionadas foi avaliada aplicando-se o coef
 O resultado apresentado abaixo mostra uma forte correlação  (valor de r ⦥ 0.7) entre as variáveis: casos acumulados e óbitos acumulados; casos diários e óbitos diários; casos diários e casos acumulados.
 É possível observar uma correlação moderada (valor de r ⦥ 0.5) entre as variáveis: vacinação diária e total vacinados; casos diários e óbitos acumulados; óbitos diários e óbitos acumulados; óbitos diários e casos acumulados.
 
+
 ![correlation_features_brasil](./assets/correlation_features_brasil.png)
+
 
 **Comparação países**
 **Densidade populacional x Total de mortes**
 
+
 ![population_density_versus_death_total](./assets/population_density_versus_death_total.png)
+
 
 Como podemos observar, a densidade populacional não tem correlação linear direta com o total de óbitos por país, vemos entradas com baixa densidade populacional e alto número de óbitos, assim como o contrário. Para tornar este um modelo mais robusto, talvez será necessário analisar essas variáveis em conjunto.
 
 **População x Total de mortes**
 
+
 ![population_versus_death_total](./assets/population_versus_death_total.png)
+
 
 Novamente, assim como na análise de densidade populacional, o comportamento é extremamente similar. Talvez é o caso de análise conjunto ou aplicação de um modelo polinomial, com todos os devidos cuidados para evitar o overfitting.
 
 **Expectativa de vida x Total de mortes por milhão**
 
+
 ![life_expec_versus_death_total](./assets/life_expec_versus_death_total.png)
+
 
 **IDH x Total de mortes por milhão**
 
+
 ![idh_versus_death_total](./assets/idh_versus_death_total.png)
 
+
 **Correlações**
+
 
 ![comparison_countries_correlation](./assets/comparison_countries_correlation.png)
 
