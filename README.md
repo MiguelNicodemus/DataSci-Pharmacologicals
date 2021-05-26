@@ -100,11 +100,11 @@ Conforme apresentado na figura, o número de casos obteve uma forte correlação
 
 **Gráfico de dispersão taxa de testes feitos em função do número de novos casos - correlação positiva**
 
-![tests_newcases_Scatterplot](./assets/tests_newcases_Scatterplot.png)
+![tests_new_cases_Scatterplot](./assets/tests_new_cases_Scatterplot.png)
 
 **Gráfico de dispersão taxa de testes positivos em função do número de novos casos**
 
-![newcases_positives_testes_Scatterplot](./assets/newcases_positives_testes_Scatterplot.png)
+![new_cases_positives_testes_Scatterplot](./assets/new_cases_positives_testes_Scatterplot.png)
 
 Verifica-se uma correlação positiva entre número de novos casos e testes feitos no primeiro gráfico enquanto que no segundo gráfico, não é constatada uma correlação clara entre os novos casos e a taxa de testes positivos.
 
