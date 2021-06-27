@@ -32,7 +32,7 @@ A Covid 19 está afetando a população brasileira de uma forma complexa. O pres
 ## Vídeo da Apresentação Final
 
 
-[Video da Apresentação Final Ciência e Visualização de Dados em Saúde](https://drive.google.com/file/d/1bz0qKdHzgSvwRx_pvibjkw9aRE5BmEQP/view?usp=sharing)
+[Video da Apresentação Final Ciência e Visualização de Dados em Saúde](https://drive.google.com/file/d/1ZJvP5R7AJtXpXe7foxbgJfHhpihPsWHl/view?usp=sharing)
 
 
 # Slides do Projeto
